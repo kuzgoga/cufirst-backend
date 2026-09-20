@@ -22,7 +22,7 @@ from app.modules.auth.views import (
 )
 from app.config import settings
 from app.db import provide_db_session
-from app.schemas import ErrorOut
+from app.api_schemas import ErrorOut
 
 
 def auth_error_handler(_: Request, error: AuthError) -> Response[ErrorOut]:

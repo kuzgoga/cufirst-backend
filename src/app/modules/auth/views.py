@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 from app.modules.auth.service import AuthError, AuthService
 from app.modules.auth.models import User
 from app.modules.auth.schemas import JwtTokenOut, SignInIn, UserIn, UserOut, UserUpdateIn
-from app.schemas import SuccessOut
+from app.api_schemas import SuccessOut
 
 JWT_SECURITY = [{"BearerAuth": []}]
 
