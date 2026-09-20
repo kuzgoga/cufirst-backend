@@ -29,7 +29,7 @@ PYTHONDONTWRITEBYTECODE=1 uv run dev
 ```
 
 ## Свагер
-
+http://localhost:8000/schema/scalar#GET/me
 
 ## Миграции
 Создание миграции:
