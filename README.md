@@ -47,15 +47,15 @@ uv run alembic upgrade head
 
 ## Кодекс чести
 1. Unified Response. ВСЕ ответы должны иметь единый тип:
-Успешный ответ:
+Успешный ответ:  
 ```json
 {
     "status": "success",
-    "data": ...
+    "data": {...},
 }
 ```
-Неудачный ответ:
-```
+Неудачный ответ:  
+```json
 {
   "status":"error",
   "code":"UNKNOWN_ERROR",
