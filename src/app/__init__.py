@@ -1,0 +1,1 @@
+"""CUFirst backend application."""

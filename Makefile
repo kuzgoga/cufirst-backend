@@ -1,0 +1,2 @@
+dev:
+	PYTHONDONTWRITEBYTECODE=1 uv run dev
